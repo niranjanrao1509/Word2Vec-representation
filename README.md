@@ -5,8 +5,10 @@ Recall that in word2vec we scan through a text corpus and for each training exam
 
 Typically the context words are defined as a symmetric window of predefined length, on both the left and right hand sides of the center word. For example, suppose our corpus consists of the sentence “I like playing football with my friends”. Also, let’s say that we define our window to be symmetric around the center word and of length two. Then, our one-hot encoded context and center words can be visualized as follows,
 
-You should remember that in the CBOW model the input is represented by the context words and the labels (ground truth) by the center words.
+In the CBOW model the input is represented by the context words and the labels (ground truth) by the center words.
 
+The code was inspired by the Stanford NLP course, where Richard Socher jots down the entire math of the backpropogation algorithm!
+Inspired me to attempt to code the same.
 
 
 
