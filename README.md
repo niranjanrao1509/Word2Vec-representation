@@ -10,6 +10,7 @@ In the CBOW model the input is represented by the context words and the labels (
 The code was inspired by the Stanford NLP course, where Richard Socher jots down the entire math of the backpropogation algorithm!
 Inspired me to attempt to code the same.
 
+The model was trained on a tiny corpus due to lack of computational power, but the if the same model is applied to a large corpus it should provide more desirable and deterministic results.
 
 
 
