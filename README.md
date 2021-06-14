@@ -17,7 +17,9 @@ The model was trained on a tiny corpus due to lack of computational power, but t
 ## Structure
 
 Word2Vec from Scratch.py - Naive Implementation(Too much space)
-ipynb - Larger vocab + Space Efficient, mini batch training pending
+Word2Vecipynb - Larger vocab + Space Efficient, mini batch training pending
+TF.ipynb - Using tensorflow for a Feed Forward NN
+
 
 
 
